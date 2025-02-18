@@ -16,5 +16,13 @@ Gem::Specification.new do |s|
         "ip2proxy_rails.gemspec",
         "lib/ip2proxy_rails.rb",
     ]
+    if s.respond_to?(:metadata=)
+        s.metadata = {
+          "bug_tracker_uri" => "https://github.com/ip2location/ip2proxy-rails/issues",
+          "documentation_uri" => "https://www.rubydoc.info/gems/ip2proxy_rails",
+          "homepage_uri" => "https://www.ip2proxy.com",
+          "source_code_uri" => "https://github.com/ip2location/ip2proxy-rails",
+        }
+    end
     s.add_runtime_dependency 'ip2proxy_ruby', '>= 3.3.1'
 end

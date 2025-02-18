@@ -1,3 +1,6 @@
+[![Latest Stable Version](https://img.shields.io/gem/v/ip2proxy_rails.svg)](https://rubygems.org/gems/ip2proxy_rails)
+[![Total Downloads](https://img.shields.io/gem/dt/ip2proxy_rails.svg)](https://rubygems.org/gems/ip2proxy_rails)
+
 # IP2Proxy Ruby on Rails Library
 This IP2Proxy Ruby on Rails library allows user to reverse search of IP address to detect VPN servers, open proxies, web proxies, Tor exit nodes, search engine robots, data center ranges, residential proxies, consumer privacy networks, and enterprise private networks using IP2Proxy BIN database. Other information available includes proxy type, country, state, city, ISP, domain name, usage type, AS number, AS name, threats, last seen date and provider names. It lookup the proxy IP address from **IP2Proxy BIN Data** file.
 
