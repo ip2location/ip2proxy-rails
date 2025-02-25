@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name = 'ip2proxy_rails'
-    s.version = '1.0.0'
+    s.version = '1.1.0'
     s.required_ruby_version = '>= 2.5.0'
     s.require_paths = ["lib"]
     s.authors = ["ip2location"]

@@ -52,6 +52,7 @@ class TestController < ApplicationController
     @last_seen = proxy_service.last_seen
     @threat = proxy_service.threat
     @provider = proxy_service.provider
+    @fraud_score = proxy_service.fraud_score
   end
 end
 ```
@@ -71,6 +72,7 @@ end
 <p>Last Seen: <%= @last_seen %></p>
 <p>Threat: <%= @threat %></p>
 <p>Provider: <%= @provider %></p>
+<p>Fraud Score: <%= @fraud_score %></p>
 ```
 9. Add the following line into the *config/routes.rb* file after the `Rails.application.routes.draw do` line.
 ```ruby

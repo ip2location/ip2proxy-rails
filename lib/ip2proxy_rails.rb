@@ -65,4 +65,8 @@ class Ip2proxyRails
     def provider
         proxy['provider']
     end
+
+    def fraud_score
+        proxy['fraud_score']
+    end
 end
